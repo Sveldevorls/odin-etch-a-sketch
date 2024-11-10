@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    height: 100vh;
+    padding: 2vh 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.canvas {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 90vh;
+    max-height: 90vh;
+    aspect-ratio: 1/1;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.cell {
+    width: 100%;
+    border: 1px solid black;
+}
